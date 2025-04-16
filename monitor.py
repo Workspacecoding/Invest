@@ -72,3 +72,6 @@ print("開始監控，將於每天早上 9:00 發送通知 Email")
 while True:
     schedule.run_pending()
     time.sleep(30)
+
+print("✅ monitor.py 啟動成功")
+print("❌ monitor.py 啟動失敗")
