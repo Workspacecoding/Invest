@@ -2,7 +2,7 @@ name: 📈 Daily Monitor Run
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 每天台灣早上 9 點 (UTC+8)
+      - cron: "* * * * *" # 每天台灣早上 9 點 (UTC+8)
   workflow_dispatch:
 
 jobs:
