@@ -2,7 +2,7 @@ name: 📈 Daily Monitor Run
 
 on:
   schedule:
-    - cron: "00 11 * * *"   # 台灣時間 18:50
+    - cron: "00 12 * * *"   # 台灣時間 18:50
   workflow_dispatch:
 
 
