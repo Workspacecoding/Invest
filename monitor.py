@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 # === 設定 Gmail 帳號與密碼 ===
 YOUR_EMAIL = "milai8899@gmail.com"
 YOUR_PASSWORD = "lhni syxg dukj advv"
-TO_EMAIL = ["workspacecloud0@gmail.com"]
+TO_EMAIL = "workspacecloud0@gmail.com"
 
 # === 發送 Email 函式 ===
 def send_email(subject, body):
