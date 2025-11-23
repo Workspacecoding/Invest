@@ -2,7 +2,7 @@ name: 📈 Daily Monitor Run
 
 on:
   schedule:
-    - cron: "50 10 * * *"
+    - cron: "00 11 * * *"
   workflow_dispatch:
 
 
