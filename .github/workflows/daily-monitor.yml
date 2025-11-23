@@ -33,4 +33,9 @@ jobs:
 
       - name: 🚀 Run monitor.py
         run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "UTC time now:"
+          date -u
+          echo "Local time (runner):"
+          date
           python monitor.py
