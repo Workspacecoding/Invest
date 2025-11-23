@@ -2,8 +2,8 @@ name: 📈 Daily Monitor Run
 
 on:
   schedule:
-      - cron: "* * * * *" # 每天台灣早上 9 點 (UTC+8)
-  workflow_dispatch:
+    - cron: '* * * * *'   # 測試用：每分鐘跑一次
+  workflow_dispatch:       # 保留手動觸發
 
 jobs:
   run-monitor:
