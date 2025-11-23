@@ -2,7 +2,7 @@ name: 📈 Daily Monitor Run
 
 on:
   schedule:
-    - cron: '* * * * *'   # 測試用：每分鐘跑一次
+  - cron: "26 22 * * *"
   workflow_dispatch:       # 保留手動觸發
 
 jobs:
